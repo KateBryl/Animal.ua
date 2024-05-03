@@ -1,0 +1,78 @@
+.feedback-title {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+    color: #000000;
+    margin: 4% 5% 0;
+    text-align: center;
+}
+
+.feedback-swiper .swiper-button-next {
+    top: 92%;
+}
+
+.feedback-swiper .swiper-button-prev {
+    top: 92%;
+}
+
+.feedback-swiper .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 0px !important;
+    left: auto;
+    --swiper-theme-color: #000000;
+    --swiper-navigation-size: 34px;
+}
+
+.feedback-swiper .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 1200px !important;
+    right: auto;
+    --swiper-theme-color: #000000;
+    --swiper-navigation-size: 34px;
+}
+
+.feedback-block {
+    position: relative;
+    border-radius: 100px;
+    background-color: #ffffff;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    display: block;
+    align-items: center;
+    width: 1200px;
+    height: 300px;
+}
+
+.feedback-img {
+    display: flex;
+}
+
+.feedback-img img {
+    width: 230px;
+    height: 40px;
+}
+
+.feedback-text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-block h3 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #000000;
+    font-size: 25px;
+    font-weight: normal;
+    display: flex;
+    align-items: start;
+    margin: 2% 0;
+}
+
+.feedback-block p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #707070;
+    display: flex;
+    font-size: 28px;
+    align-items: start;
+    text-align: start;
+    margin: 2% 0;
+}

@@ -1,0 +1,99 @@
+.accounting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accounting-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #e1e9fd solid;
+    padding: 2% 5%;
+    background-color: #e1e9fd;
+    border-radius: 100px;
+    height: 940px;
+}
+
+.accounting-picture {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.accounting-picture img {
+    width: 800px;
+}
+
+.accounting-picture-text {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+    color: #d67327;
+    margin: 5%;
+    text-align: center;
+    width: 900px;
+}
+
+.accounting-button {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px;
+    padding: 20px 60px;
+    border-radius: 64px;
+    background: #e1e9fd;
+    border: none;
+    outline: none;
+    margin: 2%;
+}
+
+.accounting-title {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+    color: #000000;
+    margin: 2% 5% 0;
+    text-align: center;
+}
+
+.accounting-block {
+    position: relative;
+    border-radius: 100px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #d67327;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    width: 750px;
+}
+
+.accounting-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.accounting-text {
+    margin-left: 3%;
+}
+
+.accounting-block h3 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #d67327;
+    font-size: 28px;
+    display: flex;
+    align-items: start;
+    margin: 2% 0;
+}
+
+.accounting-block p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    font-size: 23px;
+    align-items: start;
+    text-align: start;
+    margin: 2% 0;
+}

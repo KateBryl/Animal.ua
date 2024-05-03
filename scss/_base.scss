@@ -1,0 +1,28 @@
+html {
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #e47018 white;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+input {
+    margin: 0;
+    padding-inline: 0px;
+}
+
+footer {
+    padding: 0;
+}

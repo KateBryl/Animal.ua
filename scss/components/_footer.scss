@@ -1,0 +1,37 @@
+.footer {
+    margin-top: 5%;
+    background: #565656;
+    display: inline-flex;
+    width: 100%;
+    min-width: fit-content;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-left: 10px;
+}
+
+.contacts h3 {
+    font-size: 30px;
+}
+
+.contacts a {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.media {
+    margin-right: 6%;
+}
+
+.info h3 {
+    font-size: 30px;
+}
+
+.info p {
+    font-size: 25px;
+}
+
+.copyright p {
+    font-family: none;
+    padding-top: 14%;
+}

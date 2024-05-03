@@ -1,0 +1,67 @@
+.breeding-list {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.breeding-block-img img {
+    width: 700px;
+}
+
+.breeding-title {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+    color: #000000;
+    margin: 0 5%;
+    text-align: center;
+}
+
+.breeding-block {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #d67327;
+    padding: 2% 5%;
+    margin: 2% 2% 0;
+    display: inline-flex;
+    align-items: center;
+    width: 900px;
+    height: 200px;
+}
+
+.breeding-block-img {
+    position: relative;
+    display: inline-flex;
+    width: 1000px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.breeding-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.breeding-text {
+    margin-left: 3%;
+}
+
+.breeding-block h3 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #d67327;
+    font-size: 28px;
+    display: flex;
+    align-items: start;
+    margin: 2% 0;
+}
+
+.breeding-block p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    font-size: 23px;
+    align-items: start;
+    text-align: start;
+    margin: 2% 0;
+}

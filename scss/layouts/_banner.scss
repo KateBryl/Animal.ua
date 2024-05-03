@@ -1,0 +1,76 @@
+.banner {
+    background: linear-gradient(to top, #d67327, #f49953, #f4a66b, #f7f7f7);
+    margin-top: -20px;
+    position: relative;
+    display: inline-flex;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+    @media screen and (max-width: $bp-laptop){
+        display: block;
+        width: 100%;
+    }
+}
+
+.promo-title {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 30%;
+    font-size: 40px;
+    padding: 3% 5% 5% 20%;
+    color: #ffffff;
+    display: table-column;
+
+    @media screen and (max-width: $bp-laptop) {
+    padding: 3% 0 5% 10%;
+    width: 40%;
+    }
+    @media screen and (max-width: $bp-laptop ) {
+    display: block;
+    width: fit-content;
+    font-size: 25px;
+ }
+}
+
+.special-word {
+    background-color: #f7f7f7;
+    color: #d67327;
+    padding: 10px;
+    border-radius: 20%;
+
+    @media screen and (max-width: $bp-laptop){
+        padding: 5px;
+    }
+}
+
+.promo-text {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+
+    @media screen and (max-width: $bp-laptop){
+        font-size: 20px;
+    }
+}
+
+.picture {
+    display: inline-flex;
+    align-items: center;
+    width: 40%;
+    justify-content: start;
+
+    @media screen and (max-width: $bp-laptop){
+        display: flex;
+        min-width: 100%;
+        justify-content: center;
+    }
+}
+
+.layer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: $bp-tablet){
+        max-width: 85%;
+    }
+}

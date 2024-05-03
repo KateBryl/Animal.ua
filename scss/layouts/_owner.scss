@@ -1,0 +1,117 @@
+.owner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owner-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.owner-picture {
+    display: inline-flex;
+}
+
+.owner-picture img {
+    width: 700px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 600px;
+    }
+    @media screen and (max-width: 1230px) {
+        width: 480px;
+    }
+    @media screen and (max-width: 930px) {
+        width: 0px;
+    }
+}
+
+.owner-title {
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
+    font-size: 50px;
+    color: #000000;
+    margin: 0 5%;
+    text-align: center;
+
+    @media screen and (max-width: 600px) {
+        font-size: 40px;
+    }
+}
+
+.owner-block {
+    position: relative;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #d67327;
+    padding: 2% 5%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    width: 650px;
+    @media screen and (max-width: $bp-desktop) {
+        width: 490px;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        width: 350px;
+    }
+    @media screen and (max-width: 930px) {
+        width: 500px;
+    }
+    @media screen and (max-width: 600px) {
+        width: 350px;
+    }
+}
+
+.owner-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.owner-text {
+    margin-left: 3%;
+}
+
+.owner-block h3 {
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
+    color: #d67327;
+    font-size: 28px;
+    display: flex;
+    align-items: start;
+    margin: 2% 0;
+
+    @media screen and (max-width: $bp-laptop) {
+        font-size: 23px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 18px;
+    }
+}
+.owner-block p {
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
+    display: flex;
+    font-size: 23px;
+    align-items: start;
+    text-align: start;
+    margin: 2% 0;
+
+    @media screen and (max-width: $bp-laptop) {
+        font-size: 20px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 15px;
+    }
+}
