@@ -2,18 +2,41 @@
     display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
+    // @media screen and (max-width: $bp-tablet) {
+    //     flex-wrap: nowrap;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    //     overflow: auto;
+    //     overflow-x: hidden;
+    //     scrollbar-width: thin;
+    //     scrollbar-color: #e47018 white;
+    //     width: fit-content;
+    //     height: 400px;
+    // }
 }
 
 .breeding-block-img img {
-    width: 700px;
+    width: 550px;
+
+    @media screen and (max-width: $bp-tablet) {
+        width: 0px;
+    }
 }
 
 .breeding-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 50px;
     color: #000000;
     margin: 0 5%;
     text-align: center;
+
+    @media screen and (max-width: 600px){
+        font-size: 40px;
+    }
 }
 
 .breeding-block {
@@ -27,21 +50,45 @@
     margin: 2% 2% 0;
     display: inline-flex;
     align-items: center;
-    width: 900px;
+    width: 700px;
     height: 200px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 580px;
+    }
+     @media screen and (max-width: 930px){
+height: 140px;
+     }
+    @media screen and (max-width: 600px) {
+        width: 400px;
+        height: 150px;
+        padding: 10px;
+    }
 }
 
 .breeding-block-img {
     position: relative;
     display: inline-flex;
-    width: 1000px;
+    width: 763px;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 10px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 663px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 0px;
+    }
 }
 
 .breeding-img img {
     width: 60px;
     height: 60px;
+
+    @media screen and (max-width: $bp-tablet) {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .breeding-text {
@@ -49,19 +96,33 @@
 }
 
 .breeding-block h3 {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     color: #d67327;
     font-size: 28px;
     display: flex;
     align-items: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 24px;
+    }
 }
 
 .breeding-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     display: flex;
     font-size: 23px;
     align-items: start;
     text-align: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 20px;
+    }
 }

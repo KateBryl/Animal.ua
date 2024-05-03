@@ -1,50 +1,5 @@
 /* Adaptive site  */
 @media (max-width: 1023px) {
-  .owner-picture img {
-    width: 0px;
-  }
-  .owner-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 35px;
-    color: #000000;
-    margin: 3% 5%;
-    text-align: center;
-  }
-  .owner-block {
-    position: relative;
-    border-radius: 100px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #d67327;
-    padding: 2% 5%;
-    margin-bottom: 3%;
-    display: flex;
-    align-items: center;
-    width: 300px;
-  }
-  .owner-img img {
-    width: 40px;
-    height: 40px;
-  }
-  .owner-text {
-    margin-left: 3%;
-  }
-  .owner-block h3 {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    color: #d67327;
-    font-size: 18px;
-    display: flex;
-    align-items: start;
-    margin: 2% 0;
-  }
-  .owner-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    display: flex;
-    font-size: 15px;
-    align-items: start;
-    text-align: start;
-    margin: 2% 0;
-  }
   .breeding-block-img img {
     width: 0;
   }
