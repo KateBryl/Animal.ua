@@ -51,6 +51,10 @@
         height: 320px;
         margin: 15px 10px;
     }
+    @media screen and (max-width: $bp-mobile){
+        width: 100px;
+        height: 170px;
+    }
 }
 
 .services .serv-content .card:hover {
@@ -68,6 +72,10 @@
         width: 200px;
         height: 210px;
     }
+        @media screen and (max-width: $bp-mobile){
+        width: 100px;
+        height: 120px;
+    }
 }
 
 .img-block:hover {
@@ -75,9 +83,14 @@
     border-radius: 20%;
 }
 
-.card-text {
+.cards-text {
     font-size: 30px;
+
+    @media screen and (max-width: $bp-mobile){
+       font-size: 15px;
+    }
 }
+
 
 .word {
     color: #e47018;

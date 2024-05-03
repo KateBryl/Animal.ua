@@ -6,32 +6,69 @@
     min-width: fit-content;
     justify-content: space-evenly;
     color: #ffffff;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    padding-left: 10px;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
+
+    @media screen and (max-width: $bp-tablet) {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 
 .contacts h3 {
     font-size: 30px;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 22px;
+        margin: 5px;
+    }
 }
 
 .contacts a {
     font-size: 25px;
     color: #ffffff;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 15px;
+        margin: 5px;
+    }
 }
 
 .media {
     margin-right: 6%;
+
+    @media screen and (max-width: $bp-tablet) {
+        margin-right: 3%;
+    }
 }
 
 .info h3 {
     font-size: 30px;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 22px;
+        margin: 5px;
+    }
 }
 
 .info p {
     font-size: 25px;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 16px;
+        margin: 5px;
+    }
 }
 
 .copyright p {
     font-family: none;
     padding-top: 14%;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-family: none;
+        padding-top: 4%;
+    }
 }

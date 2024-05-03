@@ -1,9 +1,16 @@
 .feedback-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 40px;
     color: #000000;
     margin: 4% 5% 0;
     text-align: center;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 35px;
+    }
 }
 
 .feedback-swiper .swiper-button-next {
@@ -16,7 +23,7 @@
 
 .feedback-swiper .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-    right: 0px !important;
+    right: 5px !important;
     left: auto;
     --swiper-theme-color: #000000;
     --swiper-navigation-size: 34px;
@@ -28,6 +35,19 @@
     right: auto;
     --swiper-theme-color: #000000;
     --swiper-navigation-size: 34px;
+
+    @media screen and (max-width: $bp-desktop) {
+        left: 1000px !important;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        left: 750px !important;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        left: 500px !important;
+    }
+    @media screen and (max-width: 610px) {
+        left: 300px !important;
+    }
 }
 
 .feedback-block {
@@ -40,6 +60,19 @@
     align-items: center;
     width: 1200px;
     height: 300px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 760px;
+        height: 280px;
+    }
+    @media screen and (max-width: 870px) {
+        width: 550px;
+        height: 280px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 350px;
+        height: 280px;
+    }
 }
 
 .feedback-img {
@@ -49,6 +82,11 @@
 .feedback-img img {
     width: 230px;
     height: 40px;
+
+    @media screen and (max-width: $bp-tablet) {
+        width: 150px;
+        height: 30px;
+    }
 }
 
 .feedback-text {
@@ -58,21 +96,35 @@
 }
 
 .feedback-block h3 {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     color: #000000;
     font-size: 25px;
     font-weight: normal;
     display: flex;
     align-items: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 20px;
+    }
 }
 
 .feedback-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     color: #707070;
     display: flex;
     font-size: 28px;
     align-items: start;
     text-align: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 18px;
+    }
 }

@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: $bp-laptop) {
+        flex-wrap: wrap;
+    }
 }
 
 .advantages-list {
@@ -9,44 +13,49 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 900px;
+    width: 700px;
     height: 500px;
     overflow: auto;
     overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: #e47018 white;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: $bp-mobile) {
+        height: 300px;
+    }
 }
 
 .advantages-picture {
     display: inline-flex;
     border-radius: 100px;
     flex-wrap: wrap;
-    width: 900px;
     justify-content: center;
-    margin-bottom: 3%;
 }
 
 .advantages-picture img {
-    width: 700px;
-}
+    width: 650px;
 
-.advantages-picture-text {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 40px;
-    color: #d67327;
-    margin: 5%;
-    text-align: center;
-    width: 900px;
+    @media screen and (max-width: $bp-desktop) {
+        width: 550px;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        width: 0;
+    }
 }
 
 .advantages-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 50px;
     color: #000000;
-    margin: 0 5%;
     text-align: center;
+
+        @media screen and (max-width: $bp-mobile) {
+        font-size: 35px;
+    }
 }
 
 .advantages-block {
@@ -55,11 +64,19 @@
     background-color: transparent;
     border-style: solid;
     border-color: #d67327;
-    padding: 2% 5%;
+    padding: 10px 40px;
     margin-bottom: 3%;
     display: flex;
     align-items: center;
-    width: 750px;
+    width: 550px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 380px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        width: 260px;
+        padding: 5px 15px;
+    }
 }
 
 .advantages-img img {
@@ -67,15 +84,21 @@
     height: 40px;
 }
 
-.advantages-text {
-    margin-left: 3%;
-}
-
 .advantages-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     color: #d67327;
     font-size: 28px;
     display: flex;
     align-items: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-desktop) {
+        font-size: 24px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 18px;
+    }
 }
