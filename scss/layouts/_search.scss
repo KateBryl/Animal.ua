@@ -8,21 +8,40 @@
     display: inline-flex;
     justify-content: center;
     flex-wrap: nowrap;
+
+    @media screen and (max-width: 840px) {
+        flex-wrap: wrap;
+    }
 }
 
 .search-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 50px;
     color: #000000;
     margin: 5% 0 0 0;
     text-align: center;
+
+    @media screen and (max-width: 600px) {
+        font-size: 40px;
+    }
 }
 
 .search-paragraph {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     display: flex;
     font-size: 23px;
     justify-content: center;
+
+        @media screen and (max-width: 600px) {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 .search-block {
@@ -32,17 +51,39 @@
     background-color: #ffffff;
     border-style: solid;
     border-color: #d67327;
-    padding: 2% 5%;
-    margin: 3% 2% 5%;
+    padding: 50px;
+    margin: 50px 10px;
     display: inline-flex;
     align-items: center;
-    width: 600px;
-    height: 200px;
+    width: 500px;
+    height: 180px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 350px;
+        padding: 20px;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        width: 260px;
+        height: 120px;
+        padding: 10px;
+    }
+    @media screen and (max-width: 840px) {
+        margin: 5px 0px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 350px;
+        height: 80px;
+    }
 }
 
 .search-img img {
     width: 60px;
     height: 60px;
+
+    @media screen and (max-width: $bp-laptop) {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .search-text {
@@ -50,21 +91,24 @@
 }
 
 .search-block h3 {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     color: #d67327;
     font-size: 28px;
     display: flex;
     align-items: start;
-    margin: 2% 0;
-}
 
-.search-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    display: flex;
-    font-size: 23px;
-    align-items: start;
-    text-align: start;
-    margin: 2% 0;
+    @media screen and (max-width: $bp-desktop) {
+        font-size: 24px;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        font-size: 20px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 18px;
+    }
 }
 
 .map {
@@ -75,4 +119,8 @@
 .map-img {
     width: 80%;
     border-radius: 100px;
+
+    @media screen and (max-width: $bp-tablet) {
+        width: 99%;
+    }
 }

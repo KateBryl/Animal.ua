@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 1250px) {
+        flex-direction: column;
+    }
 }
 
 .accounting-list {
@@ -9,38 +13,69 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
     border: #e1e9fd solid;
-    padding: 2% 5%;
+    padding: 40px 60px;
     background-color: #e1e9fd;
     border-radius: 100px;
-    height: 940px;
+    height: 850px;
+    background-image: url(../../img/wave.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    @media screen and (max-width: 1250px) {
+        height: 750px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        height: 550px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        padding: 30px 50px;
+    }
 }
 
 .accounting-picture {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 700px;
     justify-content: center;
     margin-bottom: 3%;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 450px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 350px;
+    }
 }
 
 .accounting-picture img {
-    width: 800px;
+    width: 700px;
+    @media screen and (max-width: $bp-tablet) {
+        width: 550px;
+    }
 }
 
 .accounting-picture-text {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 40px;
     color: #d67327;
     margin: 5%;
     text-align: center;
-    width: 900px;
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 30px;
+    }
 }
 
 .accounting-button {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 30px;
     padding: 20px 60px;
     border-radius: 64px;
@@ -48,10 +83,17 @@
     border: none;
     outline: none;
     margin: 2%;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 25px;
+    }
 }
 
 .accounting-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 50px;
     color: #000000;
     margin: 2% 5% 0;
@@ -68,7 +110,17 @@
     margin-bottom: 3%;
     display: flex;
     align-items: center;
-    width: 750px;
+    width: 600px;
+
+    @media screen and (max-width: $bp-desktop) {
+        width: 500px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 350px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        width: 300px;
+    }
 }
 
 .accounting-img img {
@@ -81,19 +133,33 @@
 }
 
 .accounting-block h3 {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     color: #d67327;
     font-size: 28px;
     display: flex;
     align-items: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 22px;
+    }
 }
 
 .accounting-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     display: flex;
     font-size: 23px;
     align-items: start;
     text-align: start;
     margin: 2% 0;
+
+    @media screen and (max-width: $bp-tablet) {
+        font-size: 18px;
+    }
 }

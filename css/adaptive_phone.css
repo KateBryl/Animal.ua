@@ -1,60 +1,6 @@
 /* Adaptive site  */
 @media (max-width: 1023px) {
-  .breeding-block-img img {
-    width: 0;
-  }
-  .breeding-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 35px;
-    color: #000000;
-    margin: 0 5%;
-    text-align: center;
-  }
-  .breeding-block {
-    box-sizing: border-box;
-    position: relative;
-    border-radius: 100px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #d67327;
-    padding: 2% 5%;
-    margin: 2% 0% 0;
-    display: inline-flex;
-    align-items: center;
-    width: 350px;
-    height: 100px;
-  }
-  .breeding-block-img {
-    position: relative;
-    display: inline-flex;
-    width: 100px;
-    justify-content: center;
-    margin-top: 5%;
-  }
-  .breeding-img img {
-    width: 40px;
-    height: 40px;
-  }
-  .breeding-text {
-    margin-left: 3%;
-  }
-  .breeding-block h3 {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    color: #d67327;
-    font-size: 18px;
-    display: flex;
-    align-items: start;
-    margin: 2% 0;
-  }
-  .breeding-block p {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    display: flex;
-    font-size: 15px;
-    align-items: start;
-    text-align: start;
-    margin: 2% 0;
-  }
-
+  
   /* Search section */
   .search-list {
     flex-wrap: wrap;
