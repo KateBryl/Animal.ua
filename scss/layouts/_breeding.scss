@@ -1,7 +1,13 @@
+.breeding{
+    max-width: 1800px;
+    margin:  0 auto;
+}
 .breeding-list {
     display: inline-flex;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+
     // @media screen and (max-width: $bp-tablet) {
     //     flex-wrap: nowrap;
     //     flex-direction: column;
