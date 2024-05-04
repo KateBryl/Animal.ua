@@ -1,3 +1,39 @@
+.swiper-section {
+    width: 85%;
+    margin: 0 auto;
+    background-image: url(../../img/swiper-img.png);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    padding-bottom: 7%;
+    background-position-y: bottom;
+    box-shadow: rgba(204, 113, 43, 0.14) 20px -20px 20px 0px;
+    border-top-right-radius: 100px;
+
+    @media screen and (max-width: 1400px) {
+        background-size: 0;
+    }
+    @media screen and (max-width: 1150px) {
+        box-shadow: 0 0 0 0;
+        border-top-right-radius: 0;
+        width: 100%;
+    }
+}
+
+.swiper-pic {
+    background-image: url(../../img/swiper-img_1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 450px;
+    border-top-right-radius: 100px;
+
+    @media screen and (max-width: 1400px) {
+        padding-bottom: 7%;
+    }
+    @media screen and (max-width: 1150px) {
+        background-size: 0;
+    }
+}
+
 .swiper-title {
     font-family:
         Comic Sans MS,
@@ -11,10 +47,7 @@
 
 .swiper {
     margin-top: 0%;
-    margin-bottom: 4%;
-    width: 1300px;
-    height: 100%;
-
+    width: 1250px;
 
     @media screen and (max-width: $bp-desktop) {
         width: 1100px;
@@ -42,7 +75,7 @@
 }
 
 .swiper-button-next,
-.swiper-rtl .swiper-button-prev {
+.swiper-button-prev {
     right: 140px !important;
     left: auto;
     --swiper-theme-color: #d67327;
@@ -77,11 +110,11 @@
     background-color: #ffffff;
     border-style: solid;
     border-color: #d67327;
-    padding: 2% 5%;
+    padding: 2% 2%;
     margin-bottom: 3%;
     display: flex;
     align-items: center;
-    width: 700px;
+    width: 750px;
 
     @media screen and (max-width: $bp-desktop) {
         width: 600px;
@@ -102,8 +135,8 @@
 }
 
 .swiper-img img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 
     @media screen and (max-width: $bp-laptop) {
         width: 40px;
@@ -123,7 +156,7 @@
         Comic Sans,
         cursive;
     color: #d67327;
-    font-size: 35px;
+    font-size: 28px;
     display: flex;
     align-items: start;
     text-align: start;
@@ -143,7 +176,7 @@
         Comic Sans,
         cursive;
     display: flex;
-    font-size: 28px;
+    font-size: 22px;
     align-items: start;
     text-align: start;
     margin: 2% 0;

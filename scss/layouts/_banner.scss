@@ -1,34 +1,78 @@
 .banner {
-    background: linear-gradient(to top, #d67327, #f49953, #f4a66b, #f7f7f7);
-    margin-top: -20px;
-    position: relative;
-    display: inline-flex;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    background: #bf6a29;
+    width: 76%;
+    margin: 0 auto;
+    border-radius: 100px;
+    justify-content: center;
+    background-image: url(../../img/banner.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 900px;
 
-    @media screen and (max-width: $bp-laptop){
-        display: block;
-        width: 100%;
+    @media screen and (max-width: $bp-desktop) {
+        background-size: 800px;
+    }
+    @media screen and (max-width: 1400px) {
+        background-size: 700px;
+        width: 80%;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        background-size: 600px;
+        width: 90%;
+    }
+    @media screen and (max-width: 900px) {
+        background-size: 500px;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        width: 95%;
+        background-image: url(../../img/banner_1.png);
+        background-size: 250px;
+        background-position-x: center;
     }
 }
 
+.hero {
+    display: flex;
+    // background-image: url(../../img/lines.png);
+    // background-repeat: no-repeat;
+    // background-position-x: right;
+    // background-position-y: -20px;
+}
 .promo-title {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    width: 30%;
+    display: flex;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
+    width: 55%;
     font-size: 40px;
-    padding: 3% 5% 5% 20%;
+    padding: 3%;
     color: #ffffff;
-    display: table-column;
+    // display: table-column;
 
-    @media screen and (max-width: $bp-laptop) {
-    padding: 3% 0 5% 10%;
-    width: 40%;
+    @media screen and (max-width: $bp-desktop) {
+        font-size: 35px;
     }
-    @media screen and (max-width: $bp-laptop ) {
-    display: block;
-    width: fit-content;
-    font-size: 25px;
- }
+    @media screen and (max-width: 1400px) {
+        font-size: 30px;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        width: 80%;
+        font-size: 30px;
+        padding: 5%;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 24px;
+    }
+    @media screen and (max-width: 620px) {
+        width: 98%;
+    }
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 18px;
+        width: 95%;
+        padding: 10% 0 0 5%;
+    }
 }
 
 .special-word {
@@ -37,40 +81,59 @@
     padding: 10px;
     border-radius: 20%;
 
-    @media screen and (max-width: $bp-laptop){
-        padding: 5px;
+    @media screen and (max-width: $bp-laptop) {
+        padding: 3px;
     }
 }
 
+.banner-text {
+    display: flex;
+    background-image: url(../../img/1.png);
+    padding-bottom: 20%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-y: bottom;
+
+    @media screen and (max-width: $bp-desktop) {
+        background-size: 450px;
+    }
+    @media screen and (max-width: 1400px) {
+        background-size: 400px;
+    }
+    @media screen and (max-width: $bp-laptop) {
+        background-size: 300px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        padding-bottom: 40%;
+    }
+    @media screen and (max-width: 580px) {
+        background-size: 0;
+        padding-bottom: 55%;
+        padding-top: 3%;
+    }
+}
 .promo-text {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family:
+        Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 30px;
     color: #ffffff;
     display: block;
+    padding-left: 3%;
+    width: 50%;
 
-    @media screen and (max-width: $bp-laptop){
+    @media screen and (max-width: $bp-desktop) {
+        font-size: 25px;
+    }
+    @media screen and (max-width: 1400px) {
         font-size: 20px;
     }
-}
-
-.picture {
-    display: inline-flex;
-    align-items: center;
-    width: 40%;
-    justify-content: start;
-
-    @media screen and (max-width: $bp-laptop){
-        display: flex;
-        min-width: 100%;
-        justify-content: center;
+    @media screen and (max-width: 900px) {
+        font-size: 18px;
     }
-}
-
-.layer {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    @media screen and (max-width: $bp-tablet){
-        max-width: 85%;
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 15px;
+        width: 100%;
     }
 }
